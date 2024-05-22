@@ -1,7 +1,7 @@
 {
-  "name": "devwebcamp-php-mvc-mysql",
+  "name": "MILENYUM-DOG-php-mvc-mysql",
   "version": "1.0.0",
-  "description": "Proyecto Final Desarrollo Web Completo con @codigoconjuan",
+  "description": "Proyecto Final MILENYUM-DOG desarrollado por Jefferson Alquinga",
   "main": "index.js",
   "scripts": {
     "dev": "gulp dev"
