@@ -1,1 +1,1 @@
-{"version":3,"sources":["paginas/_auth.scss"],"names":[],"mappings":"AAEA;EAEI;EACA","file":"index.css","sourcesContent":["\n\n.auth{\n\n    max-width: 120rem;\n    margin: 0 auto;\n}\n\n"]}
+{"version":3,"sources":["paginas/_auth.scss"],"names":[],"mappings":"AAIA;EACE","file":"index.css","sourcesContent":["\n.auth{\n\n}\n.auth__texto{\n  font-size: 2rem;\n}\n    "]}
