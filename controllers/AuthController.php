@@ -2,14 +2,15 @@
 
 namespace Controllers;
 
+use MVC\Router;
 use Classes\Email;
 use Model\Usuario;
-use MVC\Router;
 
 class AuthController {
     public static function login(Router $router) {
 
         $alertas = [];
+
 
         if($_SERVER['REQUEST_METHOD'] === 'POST') {
     
@@ -33,9 +34,18 @@ class AuthController {
                         $_SESSION['apellido'] = $usuario->apellido;
                         $_SESSION['email'] = $usuario->email;
                         $_SESSION['admin'] = $usuario->admin ?? null;
+
+                        
+
+                        // Redirección 
+                        if($usuario->admin) {
+                            header('Location: /admin/dashboard');
+                        } else {
+                            header('Location: /finalizar-registro');
+                        }
                         
                     } else {
-                        Usuario::setAlerta('error', 'Password Incorrecto');
+                        Usuario::setAlerta('error', 'Password o Email Incorrecto');
                     }
                 }
             }
@@ -102,7 +112,7 @@ class AuthController {
 
         // Render a la vista
         $router->render('auth/registro', [
-            'titulo' => 'Crea tu cuenta en DevWebcamp',
+            'titulo' => 'Crea tu cuenta en Milenyum_dog',
             'usuario' => $usuario, 
             'alertas' => $alertas
         ]);
@@ -123,6 +133,7 @@ class AuthController {
 
                     // Generar un nuevo token
                     $usuario->crearToken();
+                    
                     unset($usuario->password2);
 
                     // Actualizar el usuario
@@ -145,6 +156,7 @@ class AuthController {
                 }
             }
         }
+
 
         // Muestra la vista
         $router->render('auth/olvide', [
@@ -190,7 +202,7 @@ class AuthController {
 
                 // Redireccionar
                 if($resultado) {
-                    header('Location: /');
+                    header('Location: /login');
                 }
             }
         }
@@ -223,7 +235,7 @@ class AuthController {
 
         if(empty($usuario)) {
             // No se encontró un usuario con ese token
-            Usuario::setAlerta('error', 'Token No Válido');
+            Usuario::setAlerta('error', 'Token No Válido, la cuenta no se confirmó');
         } else {
             // Confirmar la cuenta
             $usuario->confirmado = 1;
@@ -233,13 +245,13 @@ class AuthController {
             // Guardar en la BD
             $usuario->guardar();
 
-            Usuario::setAlerta('exito', 'Cuenta Comprobada Correctamente');
+            Usuario::setAlerta('exito', 'Cuenta Comprobada éxitosamente');
         }
 
      
 
         $router->render('auth/confirmar', [
-            'titulo' => 'Confirma tu cuenta DevWebcamp',
+            'titulo' => 'Confirma tu cuenta Milenyum_dog',
             'alertas' => Usuario::getAlertas()
         ]);
     }
