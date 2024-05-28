@@ -3,7 +3,11 @@
 
     <p class="auth__texto"> Inicia sesión en MILENYUM-DOG</p>
 
-    <form class="formulario contenedor">
+    <?php 
+    require_once __DIR__ . '/../templates/alertas.php';
+    ?>
+
+    <form method="POST" action='/login' class="formulario contenedor">
         <div class="formulario__campo">
             <label for="email" class="formulario__label">Email</label>
             <input
