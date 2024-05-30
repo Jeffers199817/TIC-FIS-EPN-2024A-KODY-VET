@@ -1,13 +1,14 @@
 @use 'variables' as v;
 @use 'mixins' as m;
 
-*{
+/* *{
     border: solid red 1px;
 }
-
+ */
 html {
     font-size: 62.5%;
     box-sizing: border-box;
+    height: 100%;
 }
 *, *:before, *:after {
     box-sizing: inherit;
