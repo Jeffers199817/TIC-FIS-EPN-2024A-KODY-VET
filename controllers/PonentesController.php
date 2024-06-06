@@ -205,8 +205,6 @@ class PonentesController
 
             $id = $_POST['id'];
             $ponente = Ponente::find($id);
-            $ponente->eliminar();
-
             if (!isset($ponente)) {
                 header('location: /admin/ponentes');
             }

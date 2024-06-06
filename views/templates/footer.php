@@ -13,23 +13,23 @@
 
         
 <nav class="menu-redes"> 
-    <a class="menu-redes__enlace" rel="noopener noreferrer" target="_blank" href="https://facebook.com/C%C3%B3digo-Con-Juan-103341632130628">
+    <a class="menu-redes__enlace" rel="noopener noreferrer" target="_blank" href="https://facebook.com/">
         <span class="menu-redes__ocultar">Facebook</span>
     </a> 
-    <a class="menu-redes__enlace" rel="noopener noreferrer" target="_blank" href="https://twitter.com/codigoconjuan">
-        <span class="menu-redes__ocultar">Twitter</span>
+    <a class="menu-redes__enlace" rel="noopener noreferrer" target="_blank" href="https://x.com/">
+        <span class="menu-redes__ocultar">X</span>
     </a> 
-    <a class="menu-redes__enlace" rel="noopener noreferrer" target="_blank" href="https://youtube.com/codigoconjuan">
+    <a class="menu-redes__enlace" rel="noopener noreferrer" target="_blank" href="https://youtube.com/">
         <span class="menu-redes__ocultar">YouTube</span>
     </a> 
-    <a class="menu-redes__enlace" rel="noopener noreferrer" target="_blank" href="https://instagram.com/codigoconjuan">
+    <a class="menu-redes__enlace" rel="noopener noreferrer" target="_blank" href="https://instagram.com/">
         <span class="menu-redes__ocultar">Instagram</span>
     </a> 
-    <a class="menu-redes__enlace" rel="noopener noreferrer" target="_blank" href="https://tiktok.com/@codigoconjuan">
+    <a class="menu-redes__enlace" rel="noopener noreferrer" target="_blank" href="https://tiktok.com/">
         <span class="menu-redes__ocultar">Tiktok</span>
     </a> 
-    <a class="menu-redes__enlace" rel="noopener noreferrer" target="_blank" href="https://github.com/codigoconjuan">
-        <span class="menu-redes__ocultar">Tiktok</span>
+    <a class="menu-redes__enlace" rel="noopener noreferrer" target="_blank" href="https://telegram.org/a/">
+        <span class="menu-redes__ocultar">Telegram</span>
     </a>
 </nav>
     </div>

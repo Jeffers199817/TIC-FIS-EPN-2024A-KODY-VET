@@ -31,10 +31,10 @@
         </h2>
         </a>
         <nav class="navegacion">
-            <a href="/chatdog" class="navegacion__enlace">Chat Dog</a>
-            <a href="/milenyum-dog" class="navegacion__enlace">Evento</a>
+            <a href="/chat-dog" class="navegacion__enlace">Chat Dog</a>
+            <a href="/milenyum-dog" class="navegacion__enlace">Nosotros</a>
             <a href="/paquetes" class="navegacion__enlace">Paquetes</a>
-            <a href="/workshops-conferencias" class="navegacion__enlace">Workshops / Conferencias</a>
+            <a href="/conferencias-workshops" class="navegacion__enlace">Workshops / Conferencias</a>
             <a href="/registro" class="navegacion__enlace">Comprar Pase</a>
         </nav>
     </div>
