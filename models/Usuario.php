@@ -4,12 +4,15 @@ namespace Model;
 
 class Usuario extends ActiveRecord {
     protected static $tabla = 'usuarios';
-    protected static $columnasDB = ['id', 'nombre', 'apellido', 'email', 'password', 'confirmado', 'token', 'admin'];
+    protected static $columnasDB = ['id', 'nombre', 'apellido', 'email','nombrem','edadm','razam', 'password', 'confirmado', 'token', 'admin'];
 
     public $id;
     public $nombre;
     public $apellido;
     public $email;
+    public $nombrem;
+    public $edadm;
+    public $razam;
     public $password;
     public $password2;
     public $confirmado;
@@ -26,6 +29,9 @@ class Usuario extends ActiveRecord {
         $this->nombre = $args['nombre'] ?? '';
         $this->apellido = $args['apellido'] ?? '';
         $this->email = $args['email'] ?? '';
+        $this->nombrem= $args['nombrem'] ?? '';
+        $this->edadm= $args['edadm'] ?? '';
+        $this->razam=$args['razam'] ?? '';
         $this->password = $args['password'] ?? '';
         $this->password2 = $args['password2'] ?? '';
         $this->confirmado = $args['confirmado'] ?? 0;
@@ -59,6 +65,17 @@ class Usuario extends ActiveRecord {
         if(!$this->email) {
             self::$alertas['error'][] = 'El Email es Obligatorio';
         }
+        if(!$this->nombrem){
+             self::$alertas['error'][] = 'El Nombre de la mascota es obligatorio';
+        }
+
+        if(!$this->edadm){
+            self::$alertas['error'][] = 'La edad de la mascota es obligaroria';
+        }
+        if(!$this->razam){
+            self::$alertas['error'][]= 'La raza de la mascota es obligatorio';
+        }
+
         if(!$this->password) {
             self::$alertas['error'][] = 'El Password no puede ir vacio';
         }

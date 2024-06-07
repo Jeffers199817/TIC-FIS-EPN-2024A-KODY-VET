@@ -43,6 +43,44 @@
             >
         </div>
 
+        <!--DATOS DE LA MASCOTA-->
+        <div class="formulario__campo">
+            <label for="nombrem" class="formulario__label">Nombre Mascota</label>
+            <input
+                type="text"
+                class="formulario__input"
+                placeholder="Nombre de Tu Mascota"
+                id="nombrem"
+                name="nombrem"
+                value="<?php echo $usuario->nombrem; ?>"
+            >
+        </div>
+
+        <div class="formulario__campo">
+            <label for="edadm" class="formulario__label">Edad Mascota</label>
+            <input
+                type="number"
+                class="formulario__input"
+                placeholder="Edad de Tu Mascota"
+                id="edadm"
+                name="edadm"
+                value="<?php echo $usuario->edadm; ?>"
+            >
+        </div>
+        <div class="formulario__campo">
+            <label for="razam" class="formulario__label">Raza</label>
+            <input
+                type="text"
+                class="formulario__input"
+                placeholder="La raza de Tu Mascota"
+                id="razam"
+                name="razam"
+                value="<?php echo $usuario->razam; ?>"
+            >
+        </div>
+
+        <!--Fin de los Datos de mascota-->
+
         <div class="formulario__campo">
             <label for="password" class="formulario__label">Password</label>
             <input
