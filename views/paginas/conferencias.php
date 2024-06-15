@@ -1,6 +1,6 @@
 <main class="agenda">
     <h2 class="agenda__heading">Workshops & Conferencias</h2>
-    <p class="agenda__descripcion">Talleres y Conferencias dictados por expertos en desarrollo web</p>
+    <p class="agenda__descripcion">Talleres y Conferencias dictados por expertos en Caninos</p>
 
     <div class="eventos">
         <h3 class="eventos__heading">&lt;Conferencias /></h3>

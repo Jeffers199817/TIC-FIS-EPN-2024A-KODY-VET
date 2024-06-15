@@ -1,0 +1,28 @@
+//BUSINESS
+
+//email
+
+sb-k3jrw30605239@business.example.com
+
+//contraseña
+vvZ8-%pd
+
+
+//PERSONAL 
+    
+    
+//email
+sb-eq20a31171623@personal.example.com
+    
+//password
+
+<_8SKne8
+
+
+<script src="https://www.paypal.com/sdk/js?client-id=BAANNz0gtppuaT2tk_8H1vMGW9o7mbYaCUpBWocne1ZQBt_Zat6W1-YDk03m-TisoYKQbwRKt77gyZT8XQ&components=hosted-buttons&disable-funding=venmo&currency=USD"></script>
+<div id="paypal-container-5G9LM4R49DDHC"></div>
+<script>
+  paypal.HostedButtons({
+    hostedButtonId: "5G9LM4R49DDHC",
+  }).render("#paypal-container-5G9LM4R49DDHC")
+</script>

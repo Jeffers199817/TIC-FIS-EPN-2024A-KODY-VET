@@ -4,6 +4,7 @@ require_once __DIR__ . '/../includes/app.php';
 
 use MVC\Router;
 use Controllers\APIEventos;
+use Controllers\APIRegalos;
 use Controllers\APIPonentes;
 use Controllers\AuthController;
 use Controllers\EventosController;
@@ -11,6 +12,7 @@ use Controllers\PaginasController;
 use Controllers\PromptsController;
 use Controllers\RegalosController;
 use Controllers\PonentesController;
+use Controllers\RegistroController;
 use Controllers\DashboardController;
 use Controllers\RegistradosController;
 
@@ -70,9 +72,33 @@ $router->get('/api/eventos-horario', [APIEventos::class, 'index']);
 $router->get('/api/ponentes', [APIPonentes::class, 'index']);
 $router->get('/api/ponente', [APIPonentes::class, 'ponente']);
 
+//Api Registrados
 $router->get('/admin/registrados', [RegistradosController::class, 'index']);
+
+//Api Prompts
 $router->get('/admin/prompts', [PromptsController::class, 'index']);
+
+//Api Regalos
 $router->get('/admin/regalos', [RegalosController::class, 'index']);
+$router->get('/api/regalos', [APIRegalos::class, 'index']);
+
+//Registro de Usuarios
+$router->get('/finalizar-registro', [RegistroController::class, 'crear']);
+
+//Boleto Gratis
+$router->post('/finalizar-registro/gratis', [RegistroController::class, 'gratis']);
+
+//Boleto Presencial
+
+$router->post('/finalizar-registro/pagar', [RegistroController::class, 'pagar']);
+
+//Conferencias
+$router->get('/finalizar-registro/conferencias', [RegistroController::class, 'conferencias']);
+$router->post('/finalizar-registro/conferencias', [RegistroController::class, 'conferencias']);
+
+//Boleto Virtual
+
+$router->get('/boleto', [RegistroController::class, 'boleto']);
 
 // Área Pública
 $router->get('/', [PaginasController::class, 'index']);
@@ -80,5 +106,8 @@ $router->get('/chat-dog', [PaginasController::class, 'chatdog']);
 $router->get('/milenyum-dog', [PaginasController::class, 'evento']);
 $router->get('/paquetes', [PaginasController::class, 'paquetes']);
 $router->get('/conferencias-workshops', [PaginasController::class, 'conferencias']);
+
+//Error 404
+$router->get('/404', [PaginasController::class, 'error']);
 
 $router->comprobarRutas();

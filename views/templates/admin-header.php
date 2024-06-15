@@ -6,10 +6,10 @@
                 </h2>
             </a>
 
-            <nav class="dashboard__nav">
-                <form method="POST" action="/login" class="dashboard__from">
-                    <input type="submit" value="Cerrar Sesión" class="dashboard__submit--logout">
-                </form>
-            </nav>
-        </div>
+        <nav class="dashboard__nav">
+            <form method="POST" action="/logout" class="dashboard__form">
+                <input type="submit" value="Cerrar Sesión" class="dashboard__submit--logout">
+            </form>
+        </nav>
+    </div>
 </header>

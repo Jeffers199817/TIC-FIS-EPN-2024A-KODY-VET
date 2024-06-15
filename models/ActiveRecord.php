@@ -117,11 +117,11 @@ class ActiveRecord {
         return array_shift( $resultado ) ;
     }
 
-    // Obtener Registros con cierta cantidad
+  // Obtener Registros con cierta cantidad
     public static function get($limite) {
-        $query = "SELECT * FROM " . static::$tabla . " LIMIT $limite ORDER BY id DESC" ;
+        $query = "SELECT * FROM " . static::$tabla . " ORDER BY id DESC LIMIT ${limite} " ;
         $resultado = self::consultarSQL($query);
-        return array_shift( $resultado ) ;
+        return $resultado;
     }
     
     //páginar lor registros
@@ -139,6 +139,20 @@ class ActiveRecord {
         $resultado = self::consultarSQL($query);
         return array_shift( $resultado ) ;
     }
+    
+    public static function ordenar($columna, $orden){
+         $query = "SELECT * FROM " . static::$tabla . " ORDER BY $columna $orden"; 
+        $resultado = self::consultarSQL($query);
+        return $resultado ;
+    }
+    
+        // Retornar por orden y con un limite
+    public static function ordenarLimite($columna, $orden, $limite) {
+        $query = "SELECT * FROM " . static::$tabla . " ORDER BY ${columna} ${orden} LIMIT ${limite} "; 
+        $resultado = self::consultarSQL($query);
+        return $resultado;
+    }
+
 
     //Busqueda Where con multiples opciones 
     public static function whereArray($array = []) {
@@ -157,16 +171,39 @@ class ActiveRecord {
     // Traer un total de registros 
 
 
-    public static function total(){ 
 
-        $query = " SELECT COUNT(*) FROM ". static::$tabla;
+    public static function total($columna = '', $valor = '') {
+        $query = "SELECT COUNT(*) FROM " . static::$tabla;
+        if($columna) {
+            $query .= " WHERE ${columna} = ${valor}";
+        }
+        $resultado = self::$db->query($query);
+        $total = $resultado->fetch_array();
+
+        return array_shift($total);
+    }
+
+
+    // Total de Registros con un Array Where
+    public static function totalArray($array = []) {
+        $query = "SELECT COUNT(*) FROM " . static::$tabla . " WHERE ";
+        foreach($array as $key => $value) {
+            if($key == array_key_last($array)) {
+                $query .= " ${key} = '${value}' ";
+            } else {
+                $query .= " ${key} = '${value}' AND ";
+            }
+        }
         $resultado = self::$db->query($query);
         $total = $resultado->fetch_array();
         return array_shift($total);
-        }
+    }
 
     // crea un nuevo registro
-    public function crear() {
+   
+
+    // crea un nuevo registro
+ public function crear() {
         // Sanitizar los datos
         $atributos = $this->sanitizarAtributos();
 
@@ -177,8 +214,6 @@ class ActiveRecord {
         $query .= join("', '", array_values($atributos));
         $query .= " ') ";
 
-    
-        
         // debuguear($query); // Descomentar si no te funciona algo
 
         // Resultado de la consulta
