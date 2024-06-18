@@ -6,6 +6,7 @@ use Model\Dia;
 use Model\Hora;
 use MVC\Router;
 use Model\Evento;
+use Model\Prompt;
 use Model\Ponente;
 use Model\Categoria;
 
@@ -59,8 +60,13 @@ class PaginasController
     }
      public static function chatdog(Router $router)
     {
+        
+        //Obtener todos los prompts del BD
+        $prompts = Prompt::all('ASC');
+    
         $router->render('paginas/chatdog', [
-            'titulo' => 'Chat Dog'
+            'titulo' => 'Chat Dog',
+            'prompts' => $prompts
         ]);
     }
 

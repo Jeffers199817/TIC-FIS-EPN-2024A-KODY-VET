@@ -75,8 +75,15 @@ $router->get('/api/ponente', [APIPonentes::class, 'ponente']);
 //Api Registrados
 $router->get('/admin/registrados', [RegistradosController::class, 'index']);
 
+//CHAT DOG
 //Api Prompts
 $router->get('/admin/prompts', [PromptsController::class, 'index']);
+$router->get('/admin/prompts/crear', [PromptsController::class, 'crear']);
+$router->post('/admin/prompts/crear', [PromptsController::class, 'crear']);
+$router->get('/admin/prompts/editar', [PromptsController::class, 'editar']);
+$router->post('/admin/prompts/editar', [PromptsController::class, 'editar']);
+$router->post('/admin/prompts/eliminar', [PromptsController::class, 'eliminar']);
+
 
 //Api Regalos
 $router->get('/admin/regalos', [RegalosController::class, 'index']);
