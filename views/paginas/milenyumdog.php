@@ -5,9 +5,9 @@
     <div class="milenyumdog__grid">
         <div class="milenyumdog__imagen">
             <picture>
-                <source srcset="build/img/sobre_milenyumdog.avif" type="image/avif">
-                <source srcset="build/img/sobre_milenyumdog.webp" type="image/webp">
-                <img loading="lazy" width="200" height="300" src="build/img/sobre_milenyumdog.jpg" alt="Imagen MilenyumDog"  >        
+                <source srcset="build/img/kody.avif" type="image/avif">
+                <source srcset="build/img/kody.webp" type="image/webp">
+                <img loading="lazy" width="200" height="300" src="build/img/kody.jpg" alt="Imagen MilenyumDog"  >        
             </picture>
         </div>
 

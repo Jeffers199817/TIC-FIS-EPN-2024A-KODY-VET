@@ -19,8 +19,7 @@
     <div class="header__contenido">
         <a href="/">
             <h1 class="header__logo">
-                &#60;MILENYUM-DOG />
-                </h1>
+                 KODY-VET                </h1>
 
                 </a>
 
@@ -37,7 +36,7 @@
 <div class="barra">
     <div class="barra__contenido">
         <a href="../login">
-        <h2 class="barra__logo">   &#60;MILENYUM-DOG />
+        <h2 class="barra__logo">   KODY-VET
             
         </h2>
         </a>
