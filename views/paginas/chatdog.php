@@ -47,7 +47,7 @@
             $preguntasArray[] = $prompt->descripcion;  // Agrega la descripción al array
         }
         $preguntasJSON = json_encode($preguntasArray);  // Convierte el array a JSON
-
+ 
     ?> 
 
     <script type="module">
@@ -121,7 +121,7 @@ thumbnailsContainer.addEventListener('click', function(event) {
             );
 
             // Crea el modelo Gemini
-            const model = genAI.getGenerativeModel({ model: "gemini-1.5-flash" });
+            const model = genAI.getGenerativeModel({ model: "gemini-1.5-flash-latest" });
 
             // Preguntas a la IA
  
@@ -130,6 +130,7 @@ thumbnailsContainer.addEventListener('click', function(event) {
            // Realiza las preguntas una por una
             const preguntasContainer = document.getElementById('preguntas'); // Define preguntasContainer aquí
             let i = 1;
+             preguntasContainer.innerHTML = ''; 
             for (const pregunta of preguntas) {
                 const promptText = pregunta;
                 const preguntaSpan = document.createElement('p');
@@ -151,7 +152,7 @@ thumbnailsContainer.addEventListener('click', function(event) {
             }
             setTimeout(() => {
            preguntasContainer.innerHTML = ''; 
-        }, 30000); // 12000 milisegundos = 2 minutos
+        }, 50000000); // 12000 milisegundos = 2 minutos
            
         });
     </script>

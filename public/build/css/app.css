@@ -1144,11 +1144,17 @@ blockquote {
 
 /* Estilo para cada imagen */
 #thumbnails img {
-  width: 140px;
-  height: 140px;
+  width: 200px;
+  height: 200px;
   margin: 10px;
   border: 2px solid #1f0000;
   border-radius: 5px;
+}
+
+#thumbnails img:hover {
+  background-color: rgba(0, 0, 0, 0.1); /* Opcional: Agregar un efecto de hover */
+  cursor: pointer;
+  color: #1f0000;
 }
 
 .upload-button {
