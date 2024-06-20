@@ -16,8 +16,10 @@ if (document.querySelector("#mapa")) {
     .addTo(map)
     .bindPopup(
       `
-            <h2 class="mapa__heading">Milenyum-Dog</h2>
+            <a  href="https://maps.app.goo.gl/Bn1hhApyAwNQ1nv69"
+             </a><h2 class="mapa__heading">Kody-Vet</h2>
             <p class="mapa__texto">Centro de Conferencias Caninas Puembo</p>
+            
         `
     )
     .openPopup();

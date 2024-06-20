@@ -4,7 +4,7 @@
 
 <div class="eventos-registro">
     <main class="eventos-registro__listado">
-        <h3 class="eventos-registro__heading--conferencias">&lt;Conferencias /></h3>
+        <h3 class="eventos-registro__heading--conferencias">Conferencias</h3>
         <p class="eventos-registro__fecha">Viernes 5 de Octubre</p>
 
         <div class="eventos-registro__grid">
@@ -20,7 +20,7 @@
             <?php } ?>
         </div>
 
-        <h3 class="eventos-registro__heading--workshops">&lt;Workshops /></h3>
+        <h3 class="eventos-registro__heading--workshops">Workshops</h3>
         <p class="eventos-registro__fecha">Viernes 5 de Octubre</p>
 
         <div class="eventos-registro__grid eventos--workshops">

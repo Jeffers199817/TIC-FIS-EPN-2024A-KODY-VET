@@ -2,7 +2,7 @@
 
 
 <div class="dashboard__contenedor">
-    <?php if(!empty($registros)) { ?>
+    <?php if (!empty($registros)) { ?>
         <table class="table">
             <thead class="table__thead">
                 <tr>
@@ -12,14 +12,15 @@
                     <th scope="col" class="table__th"> Edad</th>
                     <th scope="col" class="table__th"> Raza</th>
                     <th scope="col" class="table__th">Plan</th>
+                    <th scope="col" class="table__th">Token</th>
                 </tr>
             </thead>
 
             <tbody class="table__tbody">
-                <?php foreach($registros as $registro) { ?>
+                <?php foreach ($registros as $registro) { ?>
                     <tr class="table__tr">
                         <td class="table__td">
-                            <?php echo $registro->usuario->nombre . " " . $registro->usuario->apellido; ?>
+                            <?php echo $registro->usuario->nombre . ' ' . $registro->usuario->apellido; ?>
                         </td>
                         <td class="table__td">
                             <?php echo $registro->usuario->email; ?>
@@ -36,6 +37,9 @@
                         <td class="table__td">
                             <?php echo $registro->paquete->nombre; ?>
                         </td>
+                        <td class="table__td">
+                            <?php echo $registro->token; ?>
+                        </td>
                     </tr>
 
                 <?php } ?>
@@ -46,6 +50,6 @@
     <?php } ?>
 </div>
 
-<?php 
-    echo $paginacion;
+<?php
+echo $paginacion;
 ?>

@@ -1,3 +1,4 @@
+@charset "UTF-8";
 html {
   line-height: 1.15; /* 1 */
   -webkit-text-size-adjust: 100%; /* 2 */
@@ -376,6 +377,14 @@ h3 {
   font-size: 2rem;
 }
 
+.milenyumdog {
+  max-width: 1400px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  border-radius: 20px;
+}
 .milenyumdog__grid {
   width: min(95%, 140rem);
   margin: 0 auto;
@@ -393,6 +402,55 @@ h3 {
 }
 .milenyumdog__texto {
   line-height: 2;
+}
+.milenyumdog__texto1 {
+  line-height: 2;
+  font-weight: bold;
+}
+
+.milenyumdog__imagen {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.milenyumdog__imagen img {
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
+}
+
+.milenyumdog__contenido {
+  padding: 20px;
+}
+
+.milenyumdog__ul, li, ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  padding-left: 3rem;
+}
+
+ul {
+  list-style-type: none; /* Elimina las viñetas por defecto */
+  padding: 0; /* Elimina el margen izquierdo */
+}
+
+li {
+  margin-bottom: 10px;
+  position: relative; /* Para posicionar el ícono */
+}
+
+.li--usuario::before {
+  content: "\f007"; /* Ejemplo con Font Awesome (icono de casa) */
+  font-family: "Font Awesome 5 Free"; /* Asegúrate de tener la fuente instalada */
+  font-weight: 900;
+  position: absolute;
+  margin-right: 3rem;
+  left: 0rem;
+  right: 1rem;
+  top: 5px;
+  color: #007bff; /* Color del ícono */
 }
 
 .paquetes__grid {
@@ -1125,6 +1183,13 @@ blockquote {
 
 .imagen label:hover {
   background-color: rgba(0, 0, 0, 0.9); /* Opcional: Agregar un efecto de hover */
+}
+
+.milenyumdog__descripcion1 {
+  margin-top: -3rem;
+  margin-bottom: -1rem;
+  justify-content: left;
+  text-align: center;
 }
 
 .formulario {

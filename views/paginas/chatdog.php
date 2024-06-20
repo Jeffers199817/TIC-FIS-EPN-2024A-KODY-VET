@@ -16,6 +16,7 @@
   
          <h2 class="paquetes__heading"><?php echo $titulo ?></h2>
             <p class="milenyumdog__descripcion">Descubre el Secreto de tu Mascota: ¡Analiza su Raza, Aspecto y Emociones con IA!</p>
+            <p class="milenyumdog__descripcion1"> Carga una foto y ¡descubre todo sobre tu peludo amigo!</p>
                  <header class="container-header"></header>
         <div class="form-container">
               

@@ -1,7 +1,7 @@
 <main class="auth">
     <h2 class="auth__heading"><?php echo $titulo; ?></h2>
 
-    <p class="auth__texto"> Inicia sesión en MILENYUM-DOG</p>
+    <p class="auth__texto"> Inicia sesión en KODY-VET</p>
 
     <?php 
     require_once __DIR__ . '/../templates/alertas.php';

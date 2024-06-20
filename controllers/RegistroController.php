@@ -26,7 +26,7 @@ class RegistroController {
         // Verificar si el usuario ya esta registrado
         $registro = Registro::where('usuario_id', $_SESSION['id']);
 
-        if(isset($registro) && ($registro->paquete_id === "3" || $registro->paquete_id === "2" )) {
+        if(isset($registro) && ($registro->paquete_id === "3" || $registro->paquete_id === "2" || $registro->paquete_id === "1")) {
             header('Location: /boleto?id=' . urlencode($registro->token));
             return;
         }
@@ -102,7 +102,7 @@ class RegistroController {
         $registro->paquete = Paquete::find($registro->paquete_id);
 
         $router->render('registro/boleto', [
-            'titulo' => 'Asistencia a Milenyum-Dog',
+            'titulo' => 'Asistencia a Kody-Vet',
             'registro' => $registro
         ]);
     }

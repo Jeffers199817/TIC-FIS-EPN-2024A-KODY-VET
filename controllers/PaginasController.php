@@ -74,14 +74,14 @@ class PaginasController
     public static function evento(Router $router)
     {
         $router->render('paginas/milenyumdog', [
-            'titulo' => 'Sobre Milenyum-Dog'
+            'titulo' => 'Sobre Kody-Vet'
         ]);
     }
 
     public static function paquetes(Router $router)
     {
         $router->render('paginas/paquetes', [
-            'titulo' => 'Paquetes Milenyum-Dog'
+            'titulo' => 'Paquetes Kody-Vet'
         ]);
     }
 

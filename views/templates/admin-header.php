@@ -2,7 +2,7 @@
         <div class="dashboard__header-grid">
             <a href="/">
                 <h2 class="dashboard__logo">
-                    &#60;MILENYUM-DOG />
+                    KODY-VET
                 </h2>
             </a>
 
