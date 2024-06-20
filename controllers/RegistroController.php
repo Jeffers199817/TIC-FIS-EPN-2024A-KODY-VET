@@ -154,7 +154,7 @@ class RegistroController {
         $usuario_id = $_SESSION['id'];
         $registro = Registro::where('usuario_id', $usuario_id);
 
-        if(isset($registro) && $registro->paquete_id === "2") {
+        if(isset($registro) && $registro->paquete_id === "2" || $registro->paquete_id === "1") {
             header('Location: /boleto?id=' . urlencode($registro->token));
             return;
         }
