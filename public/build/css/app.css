@@ -1962,6 +1962,11 @@ blockquote {
   margin: 6rem 0 3rem 0;
 }
 
+.swal2-alert-grande {
+  font-size: 18px; /* Tamaño de letra */
+  width: 500px; /* Ancho del alert */
+}
+
 .registro {
   background-color: #F8FAFC;
   padding: 3rem;

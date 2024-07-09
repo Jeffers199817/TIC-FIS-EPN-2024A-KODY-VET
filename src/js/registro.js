@@ -27,11 +27,14 @@ import Swal from 'sweetalert2'
                 mostrarEventos();
             } else {
                 Swal.fire({
-                    title: 'Error',
-                    text: 'Máximo 5 eventos por registro',
-                    icon: 'error',
-                    confirmButtonText: 'OK'
-                })
+                  title: "Error",
+                  text: "Máximo 5 eventos por registro",
+                  icon: "error",
+                  confirmButtonText: "OK",
+                  customClass: {
+                    popup: "swal2-alert-grande"
+                  }
+                });
             }
         } 
 
@@ -91,11 +94,14 @@ import Swal from 'sweetalert2'
 
             if(eventosId.length === 0 || regaloId === '') {
                  Swal.fire({
-                    title: 'Error',
-                    text: 'Elige al menos un Evento y un Regalo',
-                    icon: 'error',
-                    confirmButtonText: 'OK'
-                })
+                   title: "Error",
+                   text: "Elige al menos un Evento y un Regalo",
+                   icon: "error",
+                   confirmButtonText: "OK",
+                   customClass: {
+                     popup: "swal2-alert-grande"
+                   }
+                 });
                 return;
             }
 
@@ -114,17 +120,26 @@ import Swal from 'sweetalert2'
             console.log(resultado)
 
             if(resultado.resultado) {
-                Swal.fire(
-                    'Registro Exitoso',
-                    'Tus conferencias se han almacenado y tu registro fue exitoso, te esperamos en Kody-Vet',
-                    'success'
-                ).then( () => location.href = `/boleto?id=${resultado.token}`) 
+                Swal.fire({
+                  title: "Registro Exitoso",
+                  text: "Tus conferencias se han almacenado y tu registro fue exitoso, te esperamos en Kody-Vet",
+                  icon: "success",
+                  confirmButtonText: "OK",
+                  customClass: {
+                    popup: "swal2-alert-grande"
+                  }
+                }).then(
+                  () => (location.href = `/boleto?id=${resultado.token}`)
+                ); 
             } else {
                 Swal.fire({
                     title: 'Error',
                     text: 'Hubo un error',
                     icon: 'error',
-                    confirmButtonText: 'OK'
+                    confirmButtonText: 'OK',
+                  customClass: {
+                    popup: "swal2-alert-grande"
+                  }
                 }).then( () => location.reload() )
             }
 

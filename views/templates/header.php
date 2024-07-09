@@ -2,8 +2,8 @@
     <div class="header__contenedor">
     <nav class="header__navegacion">
         
-            <?php if(is_auth()) { ?>
-                <a href="<?php echo is_admin() ? '/admin/dashboard' : '/finalizar-registro'; ?>" class="header__enlace">Administrar</a>
+            <?php if (is_auth()) { ?>
+                <a href="<?php echo is_admin() ? '/admin/dashboard' : '/finalizar-registro'; ?>" class="header__enlace"><?php echo is_admin() ? 'Administrar' : 'Carrito'; ?></a>
                 <form method="POST" action="/logout" class="header__form">
                     <input type="submit" value="Cerrar Sesión" class="header__submit">
                 </form>
@@ -23,7 +23,7 @@
 
                 </a>
 
-                <p class="header__texto">Septiembre 4-5 - 2024</p>
+                <p class="header__texto" id="fecha"></p>
                 <p class="header__texto header__texto--modalidad">En Línea - Presencial</p>
                 <a href="/registro" class="header__boton">Comprar Pase</a>
             </h1>
@@ -41,13 +41,28 @@
         </h2>
         </a>
         <nav class="navegacion">
-            <a href="/chat-dog" class="navegacion__enlace <?php echo pagina_actual('/chat-dog') ? 'navegacion__enlace--actual': '' ?>">Chat Dog</a>
-            <a href="/milenyum-dog" class="navegacion__enlace <?php echo pagina_actual('/milenyum-dog') ? 'navegacion__enlace--actual': '' ?>">Nosotros</a>
-            <a href="/paquetes" class="navegacion__enlace <?php echo pagina_actual('/paquetes') ? 'navegacion__enlace--actual': '' ?>">Paquetes</a>
-            <a href="/conferencias-workshops" class="navegacion__enlace <?php echo pagina_actual('/conferencias-workshops') ? 'navegacion__enlace--actual': '' ?>">Workshops / Conferencias</a>
-            <a href="/registro" class="navegacion__enlace <?php echo pagina_actual('/registro') ? 'navegacion__enlace--actual': '' ?>" >Comprar Pase</a>
+            <a href="/chat-dog" class="navegacion__enlace <?php echo pagina_actual('/chat-dog') ? 'navegacion__enlace--actual' : '' ?>">Chat Dog</a>
+            <a href="/milenyum-dog" class="navegacion__enlace <?php echo pagina_actual('/milenyum-dog') ? 'navegacion__enlace--actual' : '' ?>">Nosotros</a>
+            <a href="/paquetes" class="navegacion__enlace <?php echo pagina_actual('/paquetes') ? 'navegacion__enlace--actual' : '' ?>">Paquetes</a>
+            <a href="/conferencias-workshops" class="navegacion__enlace <?php echo pagina_actual('/conferencias-workshops') ? 'navegacion__enlace--actual' : '' ?>">Workshops / Conferencias</a>
+            <a href="/registro" class="navegacion__enlace <?php echo pagina_actual('/registro') ? 'navegacion__enlace--actual' : '' ?>" >Comprar Pase</a>
         </nav>
     </div>
 
 
 </div>
+
+<script> 
+function mostrarFecha() {
+  let fechaActual = new Date();
+  let opcionesFecha = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' };
+  let fechaFormateada = fechaActual.toLocaleDateString('es-ES', opcionesFecha); 
+  
+
+  document.getElementById("fecha").innerHTML = fechaFormateada;
+}
+
+mostrarFecha(); // Mostrar la fecha al cargar la página
+
+setInterval(mostrarFecha, 1000); // Actualizar cada segundo
+</script>
