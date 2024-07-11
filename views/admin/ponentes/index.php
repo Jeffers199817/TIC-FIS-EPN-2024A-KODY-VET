@@ -18,6 +18,7 @@
         <table class="table">
             <thead class="table__thead">
                 <tr>
+                <th scoope="col" class="table__th">Número</th>
                 <th scope="col" class="table__th">Nombre</th>
                 <th scope="col" class="table__th">Ubicacion</th>
                 <th scope="col" class="table__th"></th>
@@ -26,9 +27,12 @@
 
             <tbody class="table__tbody">
 
-            <?php foreach ($ponentes as $ponente) { ?>
+            <?php $i = 1; foreach ($ponentes as $ponente) { ?>
 
                 <tr class="table__tr">
+                    <td class = "table__td">
+                        <?php  echo $i ?>
+                    </td>
                     <td class="table__td">
                         <?php echo $ponente->nombre . '   ' . $ponente->apellido; ?>
                     </td>
@@ -55,7 +59,8 @@
 
                 </tr>
 
-                <?php } ?>
+                
+                <?php  $i++;  } ?>
             </tbody>
         </table>
 

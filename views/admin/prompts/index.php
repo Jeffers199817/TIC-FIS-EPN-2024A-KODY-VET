@@ -18,6 +18,7 @@
         <table class="table">
             <thead class="table__thead">
                 <tr>
+                <th scoope="col" class="table__th">Número</th>    
                 <th scope="col" class="table__th">Prompts</th>
                 <th scope="col" class="table__th"></th>
                </tr>
@@ -25,9 +26,12 @@
 
             <tbody class="table__tbody">
 
-            <?php foreach ($prompts as $prompt) { ?>
+            <?php $i=1; foreach ($prompts as $prompt) { ?>
 
                 <tr class="table__tr">
+                    <td class = "table__td">
+                        <?php  echo $i ?>
+                    </td>
                     <td class="table__td">
                         <?php echo $prompt->descripcion; ?>
                     </td>
@@ -52,7 +56,7 @@
 
                 </tr>
 
-                <?php } ?>
+                <?php $i++;  } ?>
             </tbody>
         </table>
 

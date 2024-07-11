@@ -6,6 +6,7 @@
         <table class="table">
             <thead class="table__thead">
                 <tr>
+                    <th scoope="col" class="table__th">Número</th>
                     <th scope="col" class="table__th">Nombre Usuario</th>
                     <th scope="col" class="table__th">Email</th>
                     <th scope="col" class="table__th">Nombre Mascota</th>
@@ -17,8 +18,12 @@
             </thead>
 
             <tbody class="table__tbody">
-                <?php foreach ($registros as $registro) { ?>
+                <?php $i = 1; foreach ($registros as $registro) { ?>
                     <tr class="table__tr">
+                     
+                    <td class = "table__td">
+                        <?php  echo $i ?>
+                    </td>
                         <td class="table__td">
                             <?php echo $registro->usuario->nombre . ' ' . $registro->usuario->apellido; ?>
                         </td>
@@ -42,10 +47,10 @@
                         </td>
                     </tr>
 
-                <?php } ?>
+                <?php $i++; } ?>
             </tbody>
         </table>
-    <?php } else { ?>
+    <?php  } else { ?>
         <p class="text-center">No Hay Registros Aún</p>
     <?php } ?>
 </div>

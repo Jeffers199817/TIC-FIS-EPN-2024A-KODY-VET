@@ -18,6 +18,7 @@
         <table class="table">
             <thead class="table__thead">
                 <tr>
+                <th scope="col" class="table__th">Número</th>
                 <th scope="col" class="table__th">Evento</th>
                 <th scope="col" class="table__th">Categoría</th>
                 <th scope="col" class="table__th">Día y Hora</th>
@@ -28,9 +29,12 @@
 
             <tbody class="table__tbody">
 
-            <?php foreach ($eventos as $evento) { ?>
+            <?php $i = 1; foreach ($eventos as $evento) { ?>
 
                 <tr class="table__tr">
+                    <td class="table__td">
+                        <?php echo $i?>
+                    </td>
                     <td class="table__td">
                         <?php echo $evento->nombre; ?>
                     </td>
@@ -64,7 +68,7 @@
 
                 </tr>
 
-                <?php } ?>
+                <?php $i++; } ?>
             </tbody>
         </table>
 
