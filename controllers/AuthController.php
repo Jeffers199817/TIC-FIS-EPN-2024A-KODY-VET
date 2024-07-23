@@ -248,7 +248,7 @@ class AuthController {
             Usuario::setAlerta('exito', 'Cuenta Comprobada éxitosamente');
         }
 
-     
+        debuguear($usuario);
 
         $router->render('auth/confirmar', [
             'titulo' => 'Confirma tu cuenta Kody-Vet',
