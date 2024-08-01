@@ -101,7 +101,7 @@
   <h2>Enlaces de Descarga</h2>
 
   <ul>
-    <li>Código Fuente: <a href="https://github.com/Jeffers199817/TIC-FIS-EPN-2024A-KODY-VET/tree/main">[Enlace al repositorio de Github]</a></li>
+    <li>Código Fuente: <a href="https://github.com/Jeffers199817/TIC-FIS-EPN-2024A-KODY-VET">[Enlace al repositorio de Github]</a></li>
     <li>Máquina Virtual (VMware): <a href="https://epnecuador-my.sharepoint.com/:f:/g/personal/jefferson_alquinga_epn_edu_ec/Ep-INQ0sAX9NkC4-QhaPowYBwE1rfkiQhnCqeKC6oJtgEw?e=XgAvdE">[Enlace de descarga de la máquina virtual]</a></li>
   </ul>
 
