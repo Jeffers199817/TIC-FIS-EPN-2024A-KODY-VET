@@ -94,8 +94,8 @@
 
   <h2>Presentación del Proyecto de Tesis</h2>
 
-  <a href="https://www.youtube.com/watch?v=[ID del video de presentación]">
-    <img src="https://img.youtube.com/vi/[ID del video de presentación]/0.jpg" alt="Video de Presentación">
+  <a href="https://youtu.be/KNa5rnmX_YU">
+    <img src="https://img.youtube.com/vi/KNa5rnmX_YU/0.jpg" alt="Video de Presentación">
   </a>
 
   <h2>Enlaces de Descarga</h2>
