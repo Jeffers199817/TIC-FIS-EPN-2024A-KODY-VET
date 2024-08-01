@@ -82,7 +82,7 @@
   <p>Se proporciona una máquina virtual preconfigurada con VMware para facilitar la ejecución del prototipo.</p>
 
   <h3>Descarga la Máquina Virtual:</h3>
-  <p><a href="[Enlace de descarga de la máquina virtual]">[Enlace de descarga de la máquina virtual]</a></p>
+  <p><a href="https://epnecuador-my.sharepoint.com/:f:/g/personal/jefferson_alquinga_epn_edu_ec/Ep-INQ0sAX9NkC4-QhaPowYBwE1rfkiQhnCqeKC6oJtgEw?e=XgAvdE">[Enlace de descarga de la máquina virtual]</a></p>
 
   <h3>Instrucciones para Importar y Ejecutar la Máquina Virtual:</h3>
   <ol>
