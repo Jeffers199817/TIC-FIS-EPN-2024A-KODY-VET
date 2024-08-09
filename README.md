@@ -82,7 +82,7 @@
   <p>Se proporciona una máquina virtual preconfigurada con VMware para facilitar la ejecución del prototipo.</p>
 
   <h3>Descarga la Máquina Virtual:</h3>
-  <p><a href="https://epnecuador-my.sharepoint.com/:f:/g/personal/jefferson_alquinga_epn_edu_ec/Ep-INQ0sAX9NkC4-QhaPowYBwE1rfkiQhnCqeKC6oJtgEw?e=XgAvdE">[Enlace de descarga de la máquina virtual]</a></p>
+  <p><a href="https://drive.google.com/drive/folders/1Gm14uS4LNoeFDGU-Uyf4Tg0CbTaY9nwn?usp=sharing">[Enlace de descarga de la máquina virtual]</a></p>
 
   <h3>Instrucciones para Importar y Ejecutar la Máquina Virtual:</h3>
   <ol>
@@ -102,7 +102,7 @@
 
   <ul>
     <li>Código Fuente: <a href="https://github.com/Jeffers199817/TIC-FIS-EPN-2024A-KODY-VET">[Enlace al repositorio de Github]</a></li>
-    <li>Máquina Virtual (VMware): <a href="https://epnecuador-my.sharepoint.com/:f:/g/personal/jefferson_alquinga_epn_edu_ec/Ep-INQ0sAX9NkC4-QhaPowYBwE1rfkiQhnCqeKC6oJtgEw?e=XgAvdE">[Enlace de descarga de la máquina virtual]</a></li>
+    <li>Máquina Virtual (VMware): <a href="https://drive.google.com/drive/folders/1Gm14uS4LNoeFDGU-Uyf4Tg0CbTaY9nwn?usp=sharing">[Enlace de descarga de la máquina virtual]</a></li>
   </ul>
 
   <p>¡Esperamos que disfrutes explorando nuestro proyecto!</p>
