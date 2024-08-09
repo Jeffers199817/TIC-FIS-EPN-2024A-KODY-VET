@@ -62,7 +62,11 @@
     <li>Configurar la Base de Datos:
       <ul>
         <li>Crear una base de datos MySQL.</li>
-        <li>Importar el archivo <code>[nombre del archivo].sql</code> a la base de datos.</li>
+        <li>Importar el archivo <code>[kody-vet].sql</code> a la base de datos.</li>
+        
+  <p>Descargar la base de datos del siguiente enlace:</p>
+
+  <a href="https://drive.google.com/file/d/1RBSp5cX5pvKl9pon27WqiE6rBw8BovUt/view?usp=sharing">
         <li>Configurar las credenciales de la base de datos en el archivo <code>.env</code>.</li>
       </ul>
     </li>
