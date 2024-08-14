@@ -5,6 +5,9 @@
     <img src="https://img.youtube.com/vi/UTlxFCXV4Io/0.jpg" alt="Video de Presentación">
   </a>
 
+  <p>Ver la presentación del proyecto en el siguiente enlace:</p>
+       <p><a href="https://youtu.be/UTlxFCXV4Io">[Enlace para ver presentación del proyecto Kody-vet] </a></p>
+
   <p>Este proyecto presenta un prototipo de software para la gestión de exposiciones caninas, incorporando funcionalidades innovadoras como el análisis de emociones caninas basado en IA.</p>
 
   <h2>Características Principales:</h2>
