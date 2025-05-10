@@ -2,9 +2,9 @@
   <h1>Desarrollo de un prototipo software bajo estándar SCRUM para la promoción de exposiciones caninas con soporte de IA asociadas al análisis de emociones, métodos de pago, gestión de conferencias y workshops.</h1>
 
    <a href="https://epnecuador-my.sharepoint.com/:v:/g/personal/jefferson_alquinga_epn_edu_ec/EQ2AZDMLoyNNmDCUCZJ0Ya0B7GHgbwtzIk_CosGYCsfqIg?e=6ggZ2R&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D" alt="Video de Presentación">
-    <img href="https://img.youtube.com/vi/UTlxFCXV4Io/0.jpg" alt="Video de Presentación">
+    <img src="https://img.youtube.com/vi/UTlxFCXV4Io/0.jpg" alt="Video de Presentación">
   </a>
-    <img href="https://epnecuador-my.sharepoint.com/:v:/g/personal/jefferson_alquinga_epn_edu_ec/EQ2AZDMLoyNNmDCUCZJ0Ya0B7GHgbwtzIk_CosGYCsfqIg?e=6ggZ2R&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D" alt="Video de Presentación">
+    <img src="https://epnecuador-my.sharepoint.com/:v:/g/personal/jefferson_alquinga_epn_edu_ec/EQ2AZDMLoyNNmDCUCZJ0Ya0B7GHgbwtzIk_CosGYCsfqIg?e=6ggZ2R&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D" alt="Video de Presentación">
   </a>
   <p>Ver la presentación del proyecto en el siguiente enlace:</p>
        <p><a href="https://epnecuador-my.sharepoint.com/:v:/g/personal/jefferson_alquinga_epn_edu_ec/EQ2AZDMLoyNNmDCUCZJ0Ya0B7GHgbwtzIk_CosGYCsfqIg?e=6ggZ2R&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D" alt="Video de Presentación">[Enlace para ver presentación del proyecto Kody-vet] </a></p>
