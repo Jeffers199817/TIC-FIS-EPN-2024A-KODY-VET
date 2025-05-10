@@ -79,7 +79,7 @@
 
   <p>Para una guía detallada, consulta nuestro video tutorial:</p>
 
-  <a href="https://youtu.be/UTlxFCXV4Io">
+  <a href="https://epnecuador-my.sharepoint.com/:v:/g/personal/jefferson_alquinga_epn_edu_ec/EQ2AZDMLoyNNmDCUCZJ0Ya0B7GHgbwtzIk_CosGYCsfqIg?e=6ggZ2R&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D" alt="Video de Presentación">
     <img src="https://img.youtube.com/vi/UTlxFCXV4Io/0.jpg" alt="Tutorial de Instalación">
   </a>
 
@@ -98,9 +98,9 @@
     <li>Accede a la aplicación a través del navegador web en la máquina virtual.</li>
   </ol>
 
-  <h2>Presentación del Proyecto de Tesis</h2>
+  <h2>Presentación del Proyecto Kodi-Vet</h2>
 
-  <a href="https://youtu.be/KNa5rnmX_YU">
+  <a href="https://epnecuador-my.sharepoint.com/:v:/g/personal/jefferson_alquinga_epn_edu_ec/EQ2AZDMLoyNNmDCUCZJ0Ya0B7GHgbwtzIk_CosGYCsfqIg?e=6ggZ2R&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D" alt="Video de Presentación">
     <img src="https://img.youtube.com/vi/KNa5rnmX_YU/0.jpg" alt="Video de Presentación">
   </a>
 
