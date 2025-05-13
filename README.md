@@ -7,7 +7,7 @@
     <img href="https://epnecuador-my.sharepoint.com/:v:/g/personal/jefferson_alquinga_epn_edu_ec/EQ2AZDMLoyNNmDCUCZJ0Ya0B7GHgbwtzIk_CosGYCsfqIg?e=6ggZ2R&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D" alt="Video de Presentación">
   </a>
   <p>Ver la presentación del proyecto en el siguiente enlace:</p>
-       <p><a href="https://epnecuador-my.sharepoint.com/:v:/g/personal/jefferson_alquinga_epn_edu_ec/EQ2AZDMLoyNNmDCUCZJ0Ya0B7GHgbwtzIk_CosGYCsfqIg?e=6ggZ2R&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D" alt="Video de Presentación">[Enlace para ver presentación del proyecto Kody-vet] </a></p>
+       <p><a href="https://epnecuador-my.sharepoint.com/:v:/g/personal/jefferson_alquinga_epn_edu_ec/EQ2AZDMLoyNNmDCUCZJ0Ya0B7GHgbwtzIk_CosGYCsfqIg?e=6ggZ2R&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D" alt="Video de Presentación">[Enlace para ver presentación del proyecto Kody-vet ] </a></p>
 
   <p>Este proyecto presenta un prototipo de software para la gestión de exposiciones caninas, incorporando funcionalidades innovadoras como el análisis de emociones caninas basado en IA.</p>
 
