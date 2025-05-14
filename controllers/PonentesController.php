@@ -57,6 +57,7 @@ class PonentesController
             // condición para no entrar a enlaces si no eres admin
             if (!is_admin()) {
                 header('Location: /login');
+                console.log("Legaste");
             }
 
             // leer imagen
