@@ -25,6 +25,7 @@ class PonentesController
 
         if($paginacion->total_paginas() < $pagina_actual){
             header('Location: /admin/ponentes?page=1');
+            console.log("Hola bienvenido");
 
         }
 
